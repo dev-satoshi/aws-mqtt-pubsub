@@ -1,0 +1,9 @@
+{
+  "clientId": "AWS-MQTT-PubSub",
+  "endpoint": "正しいエンドポイントを入力してね",
+  "rootCAPath": "./certs/root-ca.pem",
+  "certPath": "./certs/certificate.pem.crt",
+  "keyPath": "./certs/private.pem.key",
+  "pubTopic": "hello",
+  "subTopic": "hello"
+}
