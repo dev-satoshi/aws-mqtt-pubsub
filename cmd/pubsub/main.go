@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	cfg, err := config.LoadConfig("configs/config.json")
+	cfg, err := config.LoadConfig("config/mqtt_config.json")
 	if err != nil {
 		fmt.Println("設定ファイルの読み込みエラー:", err)
 		return
